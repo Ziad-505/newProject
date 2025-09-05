@@ -1,0 +1,33 @@
+.custome-input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.custome-label{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    color: #1abc9c;
+    transition: all 0.5s;
+    transform: rotateX(0);
+}
+
+.original-label{
+    
+    top: -10px;
+    transform: rotateX(90deg);
+    
+}
+
+.send-button{
+    background-color: #1ABC9C;
+    border: none;
+    color: #fff;
+}
+
+.sectionPadding{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}

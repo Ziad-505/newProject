@@ -1,0 +1,23 @@
+.img-layer{
+    background-color: rgba(26, 188, 156, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.img-wrapper:hover .img-layer{
+    opacity: 1;
+}
+
+
+.model-design{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(26, 188, 156, 0.6);
+}
+
+.w-500{
+    width: 500px;
+}
